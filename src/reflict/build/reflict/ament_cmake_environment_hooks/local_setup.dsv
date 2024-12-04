@@ -1,0 +1,3 @@
+source;share/reflict/environment/ament_prefix_path.sh
+source;share/reflict/environment/path.sh
+source;share/reflict/environment/pythonpath.sh

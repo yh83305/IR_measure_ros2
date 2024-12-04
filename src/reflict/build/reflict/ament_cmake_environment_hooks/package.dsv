@@ -1,0 +1,4 @@
+source;share/reflict/local_setup.bash
+source;share/reflict/local_setup.dsv
+source;share/reflict/local_setup.sh
+source;share/reflict/local_setup.zsh

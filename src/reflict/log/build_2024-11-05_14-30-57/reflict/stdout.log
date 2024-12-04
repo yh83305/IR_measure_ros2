@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gxh/Desktop/ir_ws/src/reflict/build/reflict
+Built target ament_cmake_python_copy_reflict
+running egg_info
+writing reflict.egg-info/PKG-INFO
+writing dependency_links to reflict.egg-info/dependency_links.txt
+writing top-level names to reflict.egg-info/top_level.txt
+reading manifest file 'reflict.egg-info/SOURCES.txt'
+writing manifest file 'reflict.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_reflict_egg
+-- Install configuration: ""
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/pythonpath.sh
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/pythonpath.dsv
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages//reflict.egg-info
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages//reflict.egg-info/top_level.txt
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages//reflict.egg-info/dependency_links.txt
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages//reflict.egg-info/PKG-INFO
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages//reflict.egg-info/SOURCES.txt
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages/reflict
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages/reflict/__init__.py
+Listing '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages/reflict'...
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/reflict/scan_node.py
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/reflict/reflict_estimator.py
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/ament_index/resource_index/package_run_dependencies/reflict
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/ament_index/resource_index/parent_prefix_path/reflict
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/ament_prefix_path.sh
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/path.sh
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/environment/path.dsv
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/local_setup.bash
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/local_setup.sh
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/local_setup.zsh
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/local_setup.dsv
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.dsv
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/ament_index/resource_index/packages/reflict
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/cmake/reflictConfig.cmake
+-- Up-to-date: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/cmake/reflictConfig-version.cmake
+-- Installing: /home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.xml

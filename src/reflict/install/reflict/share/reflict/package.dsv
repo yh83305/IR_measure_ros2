@@ -1,0 +1,11 @@
+source;share/reflict/hook/cmake_prefix_path.ps1
+source;share/reflict/hook/cmake_prefix_path.dsv
+source;share/reflict/hook/cmake_prefix_path.sh
+source;share/reflict/hook/pythonpath.ps1
+source;share/reflict/hook/pythonpath.dsv
+source;share/reflict/hook/pythonpath.sh
+source;share/reflict/local_setup.bash
+source;share/reflict/local_setup.dsv
+source;share/reflict/local_setup.ps1
+source;share/reflict/local_setup.sh
+source;share/reflict/local_setup.zsh

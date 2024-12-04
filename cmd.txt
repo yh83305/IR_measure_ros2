@@ -1,0 +1,22 @@
+#1 open the UWB
+ros2 launch nlink_parser_ros2 linktrack.launch.py
+
+source install/setup.bash
+ros2 topic echo /nlink_linktrack_nodeframe2
+
+#2 open the IR LED measure 
+ros2 launch ir_led_measure ir_launch.py
+
+
+#3 open the lidar ouster
+ros2 run reflict scan_node.py
+
+#4 get the rosbag
+ros2 bag record /fused_position
+ros2 bag record /reflict_center
+ros2 bag record /reflict_center /fused_position
+
+
+#5 calibration
+ros2 launch ir_led_measure rosbag_launch.py
+ros2 bag record /camera/image_raw

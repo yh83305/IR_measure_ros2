@@ -1,0 +1,128 @@
+[0.183s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.183s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f74a0d83490>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f74a0d83490>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f74a0c66d90>)
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.326s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gxh/Desktop/ir_ws/src/ir_led_measure'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ir_led_measure'
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/gxh/Desktop/ir_ws/install
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gxh/can_ws/install
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gxh/car_ws/install
+[0.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gxh/Desktop/ros2_ws/install
+[0.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/galactic
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'ir_led_measure' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'ir_led_measure' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure', 'merge_install': False, 'path': '/home/gxh/Desktop/ir_ws/src/ir_led_measure', 'symlink_install': False, 'test_result_base': None}
+[0.439s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gxh/Desktop/ir_ws/src/ir_led_measure' with build type 'ament_cmake'
+[0.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gxh/Desktop/ir_ws/src/ir_led_measure'
+[0.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/dlo_ws/devel'
+[0.446s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/ws_livox/devel'
+[0.446s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/catkin_ws/devel'
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gxh/Desktop/ir_ws/src/ir_led_measure -DCMAKE_INSTALL_PREFIX=/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/gxh/Desktop/ir_ws/src/ir_led_measure -DCMAKE_INSTALL_PREFIX=/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure -- -j8 -l8
+[4.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure -- -j8 -l8
+[4.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_led_measure)
+[4.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/gxh/Desktop/ir_ws/src/ir_led_measure/build/ir_led_measure
+[4.222s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure' for CMake module files
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure' for CMake config files
+[4.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'cmake_prefix_path')
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.ps1'
+[4.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.dsv'
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.sh'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib'
+[4.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'ld_library_path_lib')
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.ps1'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.dsv'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.sh'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/bin'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib/pkgconfig/ir_led_measure.pc'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib/python3.8/site-packages'
+[4.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'pythonpath')
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.ps1'
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.dsv'
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.sh'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/bin'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.ps1'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.dsv'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.sh'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.bash'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.zsh'
+[4.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/colcon-core/packages/ir_led_measure)
+[4.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_led_measure)
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure' for CMake module files
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure' for CMake config files
+[4.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'cmake_prefix_path')
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.ps1'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.dsv'
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/cmake_prefix_path.sh'
+[4.289s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib'
+[4.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'ld_library_path_lib')
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.ps1'
+[4.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.dsv'
+[4.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/ld_library_path_lib.sh'
+[4.291s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/bin'
+[4.291s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib/pkgconfig/ir_led_measure.pc'
+[4.291s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/lib/python3.8/site-packages'
+[4.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_led_measure', 'pythonpath')
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.ps1'
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.dsv'
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/hook/pythonpath.sh'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/bin'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.ps1'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.dsv'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.sh'
+[4.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.bash'
+[4.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/ir_led_measure/package.zsh'
+[4.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/ir_led_measure/share/colcon-core/packages/ir_led_measure)
+[4.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.295s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.318s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/local_setup.ps1'
+[4.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/_local_setup_util_ps1.py'
+[4.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/setup.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/local_setup.sh'
+[4.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/_local_setup_util_sh.py'
+[4.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/setup.sh'
+[4.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/local_setup.bash'
+[4.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/setup.bash'
+[4.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/local_setup.zsh'
+[4.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/ir_led_measure/install/setup.zsh'

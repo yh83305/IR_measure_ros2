@@ -1,0 +1,118 @@
+[0.227s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.227s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f143ebb42e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f143ebb42e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f143ea95be0>)
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.362s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gxh/Desktop/ir_ws/src/reflict'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'reflict'
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/gxh/Desktop/ir_ws/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gxh/can_ws/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gxh/car_ws/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gxh/Desktop/ros2_ws/install
+[0.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/galactic
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'reflict' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'reflict' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gxh/Desktop/ir_ws/src/reflict/build/reflict', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict', 'merge_install': False, 'path': '/home/gxh/Desktop/ir_ws/src/reflict', 'symlink_install': False, 'test_result_base': None}
+[0.471s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gxh/Desktop/ir_ws/src/reflict' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gxh/Desktop/ir_ws/src/reflict'
+[0.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/dlo_ws/devel'
+[0.477s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/ws_livox/devel'
+[0.477s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/gxh/catkin_ws/devel'
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gxh/Desktop/ir_ws/src/reflict/build/reflict': CMAKE_PREFIX_PATH=/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2:/home/gxh/Desktop/ir_ws/install/serial:/home/gxh/Desktop/ir_ws/install/reflict:/opt/ros/galactic:/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2_interfaces:/home/gxh/Desktop/ir_ws/install/ir_led_measure:/home/gxh/Desktop/ros2_ws/install/ouster_ros:/home/gxh/Desktop/ros2_ws/install/ouster_srvs:/home/gxh/Desktop/ros2_ws/install/ouster_sensor_msgs:/home/gxh/Desktop/ros2_ws/install/ouster_msgs:/home/gxh/can_ws/install/usbcan:/home/gxh/can_ws/install/dm4310_controller:/home/gxh/can_ws/install/arm_force:/home/gxh/can_ws/install/arm_cooperate:/home/gxh/car_ws/install/map_get:/home/gxh/dlo_ws/devel:/home/gxh/ws_livox/devel:/home/gxh/catkin_ws/devel /usr/bin/cmake --build /home/gxh/Desktop/ir_ws/src/reflict/build/reflict -- -j8 -l8
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gxh/Desktop/ir_ws/src/reflict/build/reflict' returned '0': CMAKE_PREFIX_PATH=/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2:/home/gxh/Desktop/ir_ws/install/serial:/home/gxh/Desktop/ir_ws/install/reflict:/opt/ros/galactic:/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2_interfaces:/home/gxh/Desktop/ir_ws/install/ir_led_measure:/home/gxh/Desktop/ros2_ws/install/ouster_ros:/home/gxh/Desktop/ros2_ws/install/ouster_srvs:/home/gxh/Desktop/ros2_ws/install/ouster_sensor_msgs:/home/gxh/Desktop/ros2_ws/install/ouster_msgs:/home/gxh/can_ws/install/usbcan:/home/gxh/can_ws/install/dm4310_controller:/home/gxh/can_ws/install/arm_force:/home/gxh/can_ws/install/arm_cooperate:/home/gxh/car_ws/install/map_get:/home/gxh/dlo_ws/devel:/home/gxh/ws_livox/devel:/home/gxh/catkin_ws/devel /usr/bin/cmake --build /home/gxh/Desktop/ir_ws/src/reflict/build/reflict -- -j8 -l8
+[1.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gxh/Desktop/ir_ws/src/reflict/build/reflict': CMAKE_PREFIX_PATH=/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2:/home/gxh/Desktop/ir_ws/install/serial:/home/gxh/Desktop/ir_ws/install/reflict:/opt/ros/galactic:/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2_interfaces:/home/gxh/Desktop/ir_ws/install/ir_led_measure:/home/gxh/Desktop/ros2_ws/install/ouster_ros:/home/gxh/Desktop/ros2_ws/install/ouster_srvs:/home/gxh/Desktop/ros2_ws/install/ouster_sensor_msgs:/home/gxh/Desktop/ros2_ws/install/ouster_msgs:/home/gxh/can_ws/install/usbcan:/home/gxh/can_ws/install/dm4310_controller:/home/gxh/can_ws/install/arm_force:/home/gxh/can_ws/install/arm_cooperate:/home/gxh/car_ws/install/map_get:/home/gxh/dlo_ws/devel:/home/gxh/ws_livox/devel:/home/gxh/catkin_ws/devel /usr/bin/cmake --install /home/gxh/Desktop/ir_ws/src/reflict/build/reflict
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reflict)
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gxh/Desktop/ir_ws/src/reflict/build/reflict' returned '0': CMAKE_PREFIX_PATH=/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2:/home/gxh/Desktop/ir_ws/install/serial:/home/gxh/Desktop/ir_ws/install/reflict:/opt/ros/galactic:/home/gxh/Desktop/ir_ws/install/nlink_parser_ros2_interfaces:/home/gxh/Desktop/ir_ws/install/ir_led_measure:/home/gxh/Desktop/ros2_ws/install/ouster_ros:/home/gxh/Desktop/ros2_ws/install/ouster_srvs:/home/gxh/Desktop/ros2_ws/install/ouster_sensor_msgs:/home/gxh/Desktop/ros2_ws/install/ouster_msgs:/home/gxh/can_ws/install/usbcan:/home/gxh/can_ws/install/dm4310_controller:/home/gxh/can_ws/install/arm_force:/home/gxh/can_ws/install/arm_cooperate:/home/gxh/car_ws/install/map_get:/home/gxh/dlo_ws/devel:/home/gxh/ws_livox/devel:/home/gxh/catkin_ws/devel /usr/bin/cmake --install /home/gxh/Desktop/ir_ws/src/reflict/build/reflict
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict' for CMake config files
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('reflict', 'cmake_prefix_path')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/pkgconfig/reflict.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages'
+[1.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('reflict', 'pythonpath')
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.sh'
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/bin'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.sh'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.bash'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.zsh'
+[1.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/colcon-core/packages/reflict)
+[1.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reflict)
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict' for CMake module files
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict' for CMake config files
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('reflict', 'cmake_prefix_path')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/cmake_prefix_path.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/pkgconfig/reflict.pc'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/lib/python3.8/site-packages'
+[1.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('reflict', 'pythonpath')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/hook/pythonpath.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/bin'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/reflict/package.zsh'
+[1.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gxh/Desktop/ir_ws/src/reflict/install/reflict/share/colcon-core/packages/reflict)
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.330s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.335s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.346s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/reflict/install/local_setup.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gxh/Desktop/ir_ws/src/reflict/install/_local_setup_util_ps1.py'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/reflict/install/setup.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/reflict/install/local_setup.sh'
+[1.352s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gxh/Desktop/ir_ws/src/reflict/install/_local_setup_util_sh.py'
+[1.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/reflict/install/setup.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/reflict/install/local_setup.bash'
+[1.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/reflict/install/setup.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gxh/Desktop/ir_ws/src/reflict/install/local_setup.zsh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gxh/Desktop/ir_ws/src/reflict/install/setup.zsh'
